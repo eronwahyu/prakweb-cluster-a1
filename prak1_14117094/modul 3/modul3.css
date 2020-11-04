@@ -1,0 +1,21 @@
+.header{
+    background-color: greenyellow;
+    width: 784px;
+    height: 200px;
+}
+.kolom1{
+    background-color: yellow;
+    text-align: left;
+    height: auto;
+    width: 200px;
+}
+.kolom2{
+    background-color: burlywood;
+    height: auto;
+    width: 584px;
+}
+.footer{
+    background-color: plum;
+    width: 784px;
+    height: 100px;
+}
