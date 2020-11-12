@@ -1,0 +1,122 @@
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+.navbar li {
+  float: right;
+  margin-right: 20px;
+}
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+.navbar li a:hover {
+  background-color: #5fe9ff;
+}
+
+.sidebar {
+  float: left;
+  height: auto;
+  width: 300px;
+  background-color: #f1f1f1;
+  padding-top: 10px;
+  padding-bottom: 300px;
+}
+.sidebar ul {
+  list-style-type: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
+  width: 200px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+.sidebar li a {
+  display: block;
+  color: black;
+  padding: 10px 16px;
+  width: 250px;
+  text-decoration: none;
+}
+.sidebar li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+/*# sourceMappingURL=variabel.css.map */
+
+  body {
+    font: Helvetica, sans-serif;
+    color: #f84141;
+  }
+  
+  .content {
+    background-color: cornflowerblue;
+    color: white;
+  }
+  
+  .empat {
+    padding: 20px;
+    background-color: deeppink;
+    color: aliceblue;
+    margin-left: 330px;
+  }
+  
+  /*# sourceMappingURL=modul.css.map */
+  .content {
+    margin-left: 333.3333333333px;
+  }
+  
+  .footer {
+    margin-top: 200px;
+    margin-left: 300px;
+    position: relative;
+    height: auto;
+    padding: 1px 0;
+    background-color: salmon;
+    text-align: center;
+  }
+  .footer p {
+    text-align: center;
+  }
+  
+  /*# sourceMappingURL=operator.css.map */
+  .tiga, .satu {
+    border: 1px solid #ccc;
+    padding: 10px;
+    color: #333;
+  }
+  
+  .dua {
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+    color: white;
+    border: 10px solid black;
+  }
+  
+  .satu {
+    margin-left: 330px;
+    background-color: chartreuse;
+  }
+  
+  .dua {
+    margin-left: 330px;
+    background-color: gold;
+  }
+  
+  .tiga {
+    margin-left: 330;
+    background-color: red;
+  }
+  
+  /*# sourceMappingURL=inheritance.css.map */
+  

@@ -1,0 +1,65 @@
+$mycolour : rgb(95,233,255);
+$bgcolour : #333;
+$align1:center;
+$number1:20px;
+.navbar{
+    ul{
+        list-style-type: none ;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: $bgcolour;
+    }
+    li{
+        float: right;
+        margin-right: $number1;
+    }
+    li a{
+        display: block;
+        color: white;
+        text-align: $align1;
+        padding: 14px $number1;
+        text-decoration: none;
+
+    }
+    li a:hover{
+        background-color: $mycolour;
+    }   
+}
+.sidebar{
+    float: left;
+    height: auto;
+    width: 300px;
+    background-color: #f1f1f1;
+    padding: {
+        top: 10px;
+        bottom: 300px;
+    }
+    ul{
+        list-style-type: none ;
+        margin: {
+            top: 20px;
+            bottom: 20px;
+            left: 0;
+            right: 0;
+        }
+        padding: 0;
+        width: 200px;
+        text-align: center;
+        background-color: #f1f1f1;
+    }
+    li {a{
+        display: block;
+        color: black;
+        padding: 10px 16px;
+        width: 250px;
+        text-decoration: none;
+    }
+    }
+    li {
+        a:hover{
+        background-color: #555;
+        color: white;
+    }
+}
+}
